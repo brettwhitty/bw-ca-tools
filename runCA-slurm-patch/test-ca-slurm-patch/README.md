@@ -11,10 +11,14 @@ Tested working under the following test environment:
 
 To run tests from a host that can successfully run 'sbatch':
 
-  ## download sample ecoli sequence data and prepare for 'runCA'
-  _step-1__get_ecoli_test_data.sh
-  
-  ## submit the test 'runCA' job to SLURM
-  sbatch _step-2__sbatch_runCA_trim_job_script.sh
+```
+    ## download sample ecoli sequence data and prepare for 'runCA'
+    ./_step-1__get_ecoli_test_data.sh
+```
+ 
+``` 
+    ## submit the test 'runCA' job to SLURM
+    sbatch _step-2__sbatch_runCA_trim_job_script.sh
+```
 
 Any problems should be apparent in the 'step 2' job's output file.
