@@ -1,0 +1,4 @@
+ecoli-trim/
+*.out
+*.fastq*
+*.frg
